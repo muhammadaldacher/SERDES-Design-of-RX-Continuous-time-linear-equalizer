@@ -1,0 +1,16 @@
+- 	VDD = 1.2v is used instead of 1v:
+	So we could improve headroom.
+	
+- 	RL need to be large enough to get considerable gain,
+	But that will reduce headroom.
+	Also, RL with the bias current set the output DC level.
+	
+-	Input transistors are biased to be in SAT, but close to Vth 
+	to maximize the gm.
+	
+-	The 2nd pole (wp2 = 1/(RL*CL)) need to be pushed way higher
+	than the dominant pole to allow peaking to occur.
+	This can be done by:
+		a) Reducing RL (but this impacts the gain)
+		b) Reducing CL (but this depends on the loading from next stage)
+		c) Add inductor in series with RL 
