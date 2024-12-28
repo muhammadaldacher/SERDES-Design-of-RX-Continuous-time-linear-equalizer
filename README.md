@@ -13,6 +13,12 @@ This project shows the design procedure & the testbench setup details used for t
 ![image](https://github.com/user-attachments/assets/7d9bf3d1-5c66-4d9b-9c42-2ffb66415b11)
 ![image](https://github.com/user-attachments/assets/26973fbd-d296-4869-9263-4cbe913c659c)
 
+*****************
+### Key References:
+
+[1] B. Razavi, "The Design of an Equalizer—Part One [The Analog Mind]," in IEEE Solid-State Circuits Magazine, vol. 13, no. 4, pp. 7-160, Fall 2021.
+
+[2] S. Gondi and B. Razavi, "Equalization and Clock and Data Recovery Techniques for 10-Gb/s CMOS Serial-Link Receivers," in IEEE Journal of Solid-State Circuits, vol. 42, no. 9, pp. 1999-2011, Sept. 2007.
 
 *****************
 For design details, check the report: ([Report: RX Active CTLE](https://github.com/muhammadaldacher/SERDES-Design-of-RX-Continuous-time-linear-equalizer/blob/main/%5BReport%5D%20RX%20Active%20CTLE.pdf))</br></br>
