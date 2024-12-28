@@ -1,9 +1,9 @@
 - 	VDD = 1.2v is used instead of 1v:
 	So we could improve headroom.
 	
-- 	RL need to be large enough to get considerable gain,
-	But that will reduce headroom.
-	Also, RL with the bias current set the output DC level.
+- 	RL need to be large enough to get considerable gain & to set the output DC level,
+	(RL with the bias current set the output DC level)
+	But Large RL reduces the headroom for the transistors & lowers the 2nd pole wp2.
 	
 -	Input transistors are biased to be in SAT, but close to Vth 
 	to maximize the gm.
